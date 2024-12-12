@@ -1,0 +1,114 @@
+
+:root {
+    
+  --primary-color: #d0ccd0 ;
+  --secondary-color: #fbfcff;
+  --accent1-color: #1c6e8c;
+  --accent2-color: #605856;
+
+
+  --heading-font: "Red Hat Mono";
+  --paragraph-font: "Lato";
+
+  --headline-color-on-white: #1c6e8c;  
+--headline-color-on-color: #605856;  
+--paragraph-color-on-white: #041116;  
+--paragraph-color-on-color: #050505;  
+--paragraph-background-color: #396E94;
+--nav-link-color: #3241e0;
+--nav-background-color: #2133a8;
+--nav-hover-link-color: #606060;
+--nav-hover-background-color: #e89212;
+}
+
+.article img {
+  box-sizing: border-box;
+  background-color: #606060;
+  border: #d0ccd0;
+  border-radius: 1px;
+  float: right;
+
+}
+
+/*header nav {
+text-align: right;
+flex-wrap: wrap;
+border: 1px solid #000;
+}*/
+
+
+.hero img {
+justify-content: center;
+margin: 100px;
+padding: 10px;
+flex-wrap: wrap;
+
+}
+
+header, footer {
+max-width: 840px;
+margin: 0 auto;
+}
+
+header nav {
+background-color: #d0ccd0;
+
+box-sizing: border-box;
+padding: 2rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 20px;
+text-decoration: none;
+font-size: 1.2rem;
+font-weight: 700;
+color: #050505;
+}
+header nav :hover{
+background-color: #e89212;
+text-decoration: none;
+}
+
+header {
+padding: 2rem;
+margin: 1rem auto;
+display: block;
+grid-template-columns: 120px 4fr 4fr;
+
+
+max-width: 1000px;
+}
+
+
+h1 {
+font-size: 2rem;
+font-family: Arial, sans-serif;
+}
+
+
+header img {
+float: left;
+}
+
+.main {
+flex-wrap: wrap-reverse;
+align-items: center;
+justify-content: center;
+}
+
+
+footer {
+margin-top: 15px;
+border-top: 1px solid #000;
+text-align: center;
+display: flex;
+align-items: flex-end;
+background-color: #fbfcff;
+
+}
+
+footer img {
+float: right;
+padding: 10px;
+grid-template-columns: 120px 4fr 4fr;
+}
