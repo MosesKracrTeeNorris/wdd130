@@ -1,0 +1,107 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: black;
+    background: gray;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+ margin: 1rem;
+ font-size: 1.5em;
+ color: cyan;
+ text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: orange;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 1.5rem;
+    border: 1.5px solid black;
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    color: blue;
+    font-size: 1.5em;
+}
+
+label, input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+input, select, textarea {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1.5rem;
+    background-color: rgb(255, 242, 240);
+    color: rgb(50, 46, 42);
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+
+footer {
+    margin: 1.5rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 1em;
+    color: blue;
+    border-top: 1px solid black;
+}
