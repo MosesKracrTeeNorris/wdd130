@@ -83,8 +83,14 @@ max-width: 1000px;
 h1 {
 font-size: 2rem;
 font-family: Arial, sans-serif;
+text-align: center;
+border-bottom: 1px solid #e89212;
+margin-bottom: 10px;
 }
 
+.ride {
+align-items: center;
+}
 
 header img {
 float: left;
