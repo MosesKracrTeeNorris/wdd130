@@ -90,6 +90,7 @@ margin-bottom: 10px;
 
 .ride {
 align-items: center;
+justify-content: space-between;
 }
 
 header img {
