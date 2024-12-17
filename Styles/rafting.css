@@ -21,12 +21,14 @@
 --nav-hover-background-color: #e89212;
 }
 
-.article img {
+article {
   box-sizing: border-box;
   background-color: #606060;
-  border: #d0ccd0;
+  display: flex;
+  border: 2px solid #d0ccd0;
+  justify-content: center;
   border-radius: 1px;
-  float: right;
+  align-items: center;
 
 }
 
@@ -38,7 +40,10 @@ border: 1px solid #000;
 
 
 .hero img {
+  background-color: #606060;
+  display: flex;
 justify-content: center;
+align-items: center;
 margin: 10px;
 padding: 10px;
 flex-wrap: wrap;
