@@ -38,6 +38,33 @@ flex-wrap: wrap;
 border: 1px solid #000;
 }*/
 
+.section, p, h2 {
+  box-sizing: border-box;
+  background-color: #606060;
+  display: flex;
+  
+  border-radius: 1.5px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  margin: 10px;
+  padding: 3.5px;
+
+
+}
+
+section {
+  box-sizing: border-box;
+  background-color: #606060;
+  display: center;
+  
+  border-radius: 1.5px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 3.5px;
+}
 
 .hero img {
   background-color: #606060;
