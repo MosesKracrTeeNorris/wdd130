@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --heading-background-color: #abe;
+    --heading-text-color: #fff
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
 nav{
     background-color: darkblue;
     padding: 10px;
@@ -19,6 +31,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -29,12 +42,17 @@ main {
 }
 aside {
     width: 30rem;
-    margin: 2rem;
-    border: 1px solid rgb(0 0 0 / 0.2 );
-    padding: 2rem;
-    background-color: rgb(109, 125, 174);
-    color: #333;
+    /* margin: 2rem; */
+    /* border: 1px solid rgb(0 0 0 / 0.2 ); */
+    /* padding: 2rem; */
+    /* background-color: rgb(109, 125, 174); */
+    /* color: #333; */
     text-align: center;
+}
+aside h2 {
+    position: relative;
+    top: 150px;
+    left: 110px;
 }
 aside img {
     width: 200px;
@@ -46,4 +64,14 @@ footer {
     text-align: center;
     background-color: darkblue;
     color: #fff;
+}
+
+/* Class Selector */
+
+.box {
+    margin: 1rem;
+    border: 2px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #abe;
+    color: #000;
 }
