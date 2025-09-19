@@ -10,7 +10,7 @@
     --accent1-color: #1c6e8c;
     --accent2-color: #605856;
     --heading-font: "Time New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif;
+    --body-font: "Arial", "Helvetica", "sans-serif";
 }
 header {
     background-color: var(--secondary-color);
