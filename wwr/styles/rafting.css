@@ -58,7 +58,7 @@ h1 {
     bottom: 1px;
     margin: 0.2px;
     border: solid #000;
-    box-shadow: #d0ccd0;
+    box-shadow: var(--primary-color);
     border-radius: 10px;
     background-color: #605856;
     width: 150px;
