@@ -151,6 +151,12 @@ figure figcaption4 {
     background-color: #605856;
     width: 150px;
 }
+h3 {
+    position: relative;
+    text-align: center;
+    color: #000;
+    justify-content: space-evenly;
+}
 h2 {
     position: relative;
     text-align: center;
