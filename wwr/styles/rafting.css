@@ -93,8 +93,8 @@ figure figcaption1 {
     position: absolute;
     margin: 0px;
     padding: 0px;
-    left: 5;
-    right: 614px;
+    left: 2rem;
+    right: 610px;
     text-align: center;
     bottom: 2px;
     border-radius: 4px;
@@ -106,7 +106,7 @@ figure figcaption2 {
     position: absolute;
     margin: 0px;
     padding: 0px;
-    left: 10;
+    left: 14rem;
     right: 410px;
     text-align: center;
     bottom: 2px;
@@ -119,8 +119,8 @@ figure figcaption3 {
     position: absolute;
     margin: 0px;
     padding: 0px;
-    left: 20;
-    right: 247px;
+    left: 27rem;
+    right: 224px;
     text-align: center;
     bottom: 2px;
     border-radius: 4px;
@@ -132,8 +132,8 @@ figure figcaption4 {
     position: absolute;
     margin: 0px;
     padding: 0px;
-    left: 40;
-    right: 50px;
+    left: 38rem;
+    right: 32px;
     text-align: center;
     bottom: 2px;
     border-radius: 4px;
