@@ -150,7 +150,6 @@ form {
     margin: 10px;
     padding: 20px;
     border-radius: 0.5rem;
-    background-color: none;
     display: flex;
     flex-direction: column;
 }
