@@ -150,8 +150,13 @@ form {
     margin: 10px;
     padding: 20px;
     border-radius: 0.5rem;
-    display: flex;
+    display: grid;
     flex-direction: column;
+}
+.allitems {
+    display: inline-block;
+    margin-left: 450px;
+    padding: 10px;
 }
 p {
     position: relative;
@@ -168,7 +173,7 @@ section p {
     position: absolute;
     align-items: center;
     justify-content: space-evenly;
-    width: 120%;
+    /* width: 120%; */
     bottom: 15rem;
     padding: 1px;
     margin: 10px;
@@ -178,7 +183,7 @@ section p {
     position: absolute;
     align-items: center;
     justify-content: space-evenly;
-    width: 120%;
+    /* width: 120%; */
     bottom: 8rem;
     padding: 1px;
     margin: 10px;
@@ -188,7 +193,7 @@ section p {
     position: absolute;
     justify-items: center;
     justify-content: space-evenly;
-    width: 130%;
+    /* width: 130%; */
     bottom: 2rem;
     padding: 2px;
     margin: 1px;
@@ -199,18 +204,16 @@ section p {
     position: absolute;
     align-items: center;
     justify-content: center;
-    width: 150%;
+    /* width: 150%; */
     bottom: .7rem;
     padding: 5px;
     margin: 1px;
 }
 button {
-    display: flex;
+    display: grid;
     flex-direction: row;
     position: absolute;
     justify-content: center;
-    right: 2%;
-    width: 40%;
     bottom: 0rem;
     padding: .1rem;
     margin: .1px;
@@ -219,14 +222,16 @@ button {
   border: none;
  
 }
-
+.map {
+    display: flex;
+}
 button:hover {
   background-color: orange;
 }
 footer {
     /* margin-top: 1px;
     padding: 1px; */
-    width: 90%;
+    /* width: 90%; */
     border-top: 1px solid #c04647;
     /* text-align: left;  */
     background-color: #1157ab;
