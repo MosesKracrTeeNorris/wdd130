@@ -172,7 +172,7 @@ section p {
     position: absolute;
     align-items: center;
     justify-content: space-evenly;
-    grid-row: 2fr 1fr;
+    grid-row: 2 / 1;
     /* width: 120%; */
     bottom: 15rem;
     padding: 12px;
