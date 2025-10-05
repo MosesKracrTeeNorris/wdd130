@@ -155,8 +155,7 @@ form {
 }
 .allitems {
     display: inline-block;
-    margin-left: 450px;
-    padding: 10px;
+    margin-left: 460px;
 }
 p {
     position: relative;
@@ -173,10 +172,11 @@ section p {
     position: absolute;
     align-items: center;
     justify-content: space-evenly;
+    grid-row: 2fr 1fr;
     /* width: 120%; */
     bottom: 15rem;
-    padding: 1px;
-    margin: 10px;
+    padding: 12px;
+    margin: 12px;
 }
 .purpose {
     display: grid;
