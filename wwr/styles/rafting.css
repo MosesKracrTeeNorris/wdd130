@@ -229,16 +229,23 @@ button:hover {
   background-color: orange;
 }
 footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    justify-content: center;
+    background-color: darkblue;
+    color: #fff;
+
+    /* display: grid;
+    align-items: center; */
     /* margin-top: 1px;
     padding: 1px; */
     /* width: 90%; */
-    border-top: 1px solid #c04647;
-    /* text-align: left;  */
-    background-color: #1157ab;
-    color: #fbfcff;
-    /* display: grid; 
-    grid-template-columns: 3fr 1fr;
-    align-items: center; */
+    /* border-top: 1px solid #c04647; */
+    /* text-align: right;  */
+    /* background-color: #1157ab; */
+    /* color: #fbfcff; */
+    /* grid-template-columns: 3fr 1fr; */
 }
 footer img {
 float: right;  
